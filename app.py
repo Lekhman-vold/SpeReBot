@@ -2,7 +2,7 @@ from flask import Flask, request
 import telebot
 
 
-bot = telebot.TeleBot('1835070518:AAHgWVPfXMqkhQX2UkpaBmolqeMi4qdwk5Q')
+bot = telebot.TeleBot('')
 bot.set_webhook(url="https://ed20d6fb8471.ngrok.io")
 app = Flask(__name__)
 
