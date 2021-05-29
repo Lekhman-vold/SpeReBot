@@ -1,9 +1,10 @@
 from flask import Flask, request
+from config import API_KEY, NGROK
 import telebot
 
 
-bot = telebot.TeleBot('1835070518:AAHgWVPfXMqkhQX2UkpaBmolqeMi4qdwk5Q')
-bot.set_webhook(url="https://ed20d6fb8471.ngrok.io")
+bot = telebot.TeleBot(API_KEY)
+bot.set_webhook(url=NGROK)
 app = Flask(__name__)
 
 
