@@ -4,4 +4,3 @@ config.py
 poetry.lock
 __pycache__/
 *.pyc
-db.sqlite3
