@@ -8,6 +8,8 @@ authors = ["Lekhman-vold <volodya.l@yahoo.com>"]
 python = "^3.8"
 Flask = "^2.0.1"
 pyTelegramBotAPI = "^3.7.9"
+Flask-SQLAlchemy = "^2.5.1"
+psycopg2-binary = "^2.8.6"
 
 [tool.poetry.dev-dependencies]
 
