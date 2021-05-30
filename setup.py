@@ -1,5 +1,5 @@
 from flask import Flask, request
-from config import API_KEY, NGROK, POSTGRES_USER, POSTGRES_PASSWORD
+from secure.config import API_KEY, NGROK, POSTGRES_USER, POSTGRES_PASSWORD
 import telebot
 
 # ------------------ Telegram

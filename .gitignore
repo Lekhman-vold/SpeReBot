@@ -1,6 +1,6 @@
 static
 templates
-config.py
+secure
 poetry.lock
 __pycache__/
 *.pyc
